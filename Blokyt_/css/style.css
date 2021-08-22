@@ -1,0 +1,157 @@
+body{
+	font-size: 15px;
+	font-family: Century Gothic;
+	background-color: #666666;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	height: 300px;
+	border-bottom: 3px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header h1{
+	font-size: 50px;
+}
+h1,h2{
+	text-align: center;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding: 15px 0px 16px 15px;
+	transition: 0.15s;
+}
+ul li{
+	list-style: none;
+	padding: 15px 10px 15px 0px;
+	width: 125px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	background-color: black;
+	border-radius: 0px 10px 10px 0px;
+}
+ul li a:hover{
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 0px 10px 10px 0px;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+}
+ul{
+	position: fixed;
+	top: 27.5px;
+}
+footer{
+	text-align: center;
+}
+.a1{
+	padding-right: 77px;
+}
+.a2{
+	padding-right: 16px;
+}
+.a3{
+	padding-right: 86px;
+}
+.a4{
+	padding-right: 50px;
+}
+.a5{
+	padding-right: 48px;
+}
+section{
+	border-bottom: 3px solid white;
+	text-align: center;
+}
+section p{
+	font-size: 18px;
+}
+.menu{
+	padding: 100px 0px 100px 0px;
+}
+.imgmenu1{
+	width: 180px;
+	height: 250px;
+	margin-right: 50px;
+	transition: 0.5s;
+}
+.imgmenu2{
+	width: 180px;
+	height: 250px;
+	transition: 0.5s;
+}
+.scrollmenu{
+	width: 270px;
+	height: 375px;
+	transform: rotate(5deg);
+}
+.v-m{
+	vertical-align: middle;
+	padding-right: 50px;
+}
+.imgprez1{
+	width: 190px;
+	height: 240px;s
+	margin-right: 50px;
+	transition: 0.5s;
+}
+.imgprez2{
+	width: 190px;
+	height: 240px;
+	transition: 0.5s;
+}
+.scrollprez{
+	width: 285px;
+	height: 360px;
+	transform: rotate(5deg);
+}
+.own{
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 0px 10px 10px 0px;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+}
+.form{
+	padding: 5px;
+	margin: 5px;
+	font-family: Century Gothic;
+}
+.message{
+	width: 200px;
+	height: 100px;
+}
+.input{
+	width: 200px;
+	height: 20px;
+}
+.contact{
+	height: 414px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.green{
+	color: green;
+	font-weight: bold;
+}
+.red{
+	color: red;
+	font-weight: bold;
+}
+.select{
+	width: 212px;
+}
+p{
+	margin: 0px;
+	padding: 5px;
+}
