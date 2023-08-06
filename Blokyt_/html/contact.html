@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Contact</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="../css/style.css">
+		</head>
+		<body>
+			<header>
+					<h1>Blokyt_</h1>	
+			</header>
+			<ul>
+				<li>
+					<a class="a1" href="../index.html">Menu</a> 
+				</li>
+				<li>
+					<a class="a2" href="presentation.html">Présentation</a> 				
+				</li>
+				<li>
+					<a class="a3" href="">Jeux</a> 
+				</li>
+				<li>
+					<a class="a4" href="">Passions</a> 
+				</li>
+				<li>
+					<a class="a5 own" href="contact.html">Contact</a>
+				</li>
+			</ul>
+			<article>
+				<section class="menu contact">
+					<form method="post" action="../php/submitmail.php">
+						<h2>Formulaire de contact :</h2>
+						<br>
+						<br>					
+						<label>H</label>
+						<input type="radio" name="sex" value="H" checked="checked"/>
+						<label>F</label>
+						<input type="radio" name="sex" value="F"/>	
+						<br>				
+						<input class="form input" type="text" name="name" placeholder="Insérez votre nom">
+						<br>
+						<input class="form input" type="number" name="age" placeholder="Insérez votre âge">	
+						<br>
+						<input class="form input" name="email" type="email" placeholder="Insérez votre adresse email">	
+						<br>
+						<input class="form input" name="subject" type="text" placeholder="Votre sujet">		
+						<br>
+						<textarea class="form message" name="message" placeholder="Insérez votre message"></textarea>	
+						<br>	
+						<select name="catsocial" class="form select">
+							<option value="Particulier" >Particulier</option>
+							<option value="Professionnel" >Professionnel</option>
+						</select>
+						<br>				
+						<button class="form" name="submit" type="submit">Envoyer</button>	
+					</form>
+				</section>	
+			</article>
+			<footer>
+				<p>Copyrights Reserved 2020 - Vicente Spada</p>
+			</footer>
+			<script src="../js/app.js"></script>
+		</body>
+	</html>
+	
